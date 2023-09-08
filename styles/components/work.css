@@ -107,6 +107,7 @@
             'image5 content5'
         ;
         place-items: center;
+        grid-gap: 10px;
     }        
 
     .work__image1 {

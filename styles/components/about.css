@@ -16,7 +16,7 @@
   }
   
   .about__description {
-    max-width: 60ch;
+    /* max-width: 60ch; */
     font-size: var(--size-sm);
     color: var(--clr-slate600);
   }
@@ -96,11 +96,11 @@
   
   /* lg */
   @media (min-width: 1024px) {
-    .about {
+    /* .about {
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-    }
+    } */
   
     .about__title {
       font-size: var(--size-4xl);
