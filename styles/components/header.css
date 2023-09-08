@@ -6,7 +6,7 @@
     padding-bottom: 2rem;
     position: relative;
     z-index: 9999;
-  }
+}
   
 .header__menu {
     display: none;
@@ -18,7 +18,7 @@
     height: var(--size-2xl);
     display: block;
 }
-  
+
 /* xs */
 /* @media (min-width: 475px) {} */
   
