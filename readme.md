@@ -48,13 +48,13 @@ For the projects, if the width of the device being used to view the website is a
 
 ![](images/html_work.png)
 
-![image-20230917223221761](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917223221761.png)
+![](images/work_grid.png)
 
-![image-20230917223536392](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917223536392.png)
+![](images/projects.png)
 
 Most of the CSS files used for this project have media queries that help adjust the appearance of the website to still look good no matter what device the user is using. The media queries are set mobile first and the set breakpoints used were 475 pixels, 640 pixels, 768 pixels, 1024 pixels, 1280 pixels, and 1536 pixels in width. 
 
-![portfolio_media_queries](C:\Users\jonat\Downloads\portfolio-20230831T212440Z-001\portfolio\images\portfolio_media_queries.gif)
+![portfolio_media_queries](images/portfolio_media_queries.gif)
 
 ## Getting Started/Requirements
 
