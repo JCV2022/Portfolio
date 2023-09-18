@@ -14,11 +14,11 @@ The technical concepts this project supports are getting the hamburger menu to a
 
 In the styles.css file, many color and size variables are set. This is because we want to use these variables throughout the project across different files, so referring to the variables' names instead of typing each color and size out every time saves time.
 
-![image-20230917211837684](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917211837684.png)
+![](images/root.png)
 
 Using Vite.js, the JavaScript is where we import our CSS files, not in our HTML. Being shown here is the main.js file. The mobileNav, darkMode, and lazyLoading represent functions being called from their respective JavaScript files. 
 
-![image-20230917213149341](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917213149341.png)
+![](images/mainjs.png)
 
 The variable mobileNav is set equal to an arrow function where it selects the header bars, mobile nav, and the mobile nav link on the document body. The code listens for a click on the headerBtn variable and assigns isMobileNavOpen to its inverse state which is true. The event listener tests if the isMobileNavOpen variable is a truthy statement. If it is, set the mobile nav to have a display of flex with document.body.style.overflowY = 'hidden'. This makes it so that the mobile nav is visible. If isMobileNavOpen is a falsy statement, the display gets set to none and document.body.style.overflowY = 'auto'. This makes it so the mobile nav is hidden. 
 
@@ -26,11 +26,11 @@ For each mobile nav link, we listen for a 'click' event. I wanted opening one of
 
 The variable mobileNav is then exported to the main.js file.
 
-![image-20230917213516366](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917213516366.png)
+![](images/mobile_nav.png)
 
 Notice that the light and dark colors are switched in light mode. 
 
-![image-20230917215025072](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917215025072.png)
+![](images/light_mode.png)
 
 The variable darkMode is set equal to an arrow function where the variable themeToggleBtns is equal to all buttons with the ID 'theme-toggle'. Only the sun buttons for the header and the mobile nav have this ID. 
 
@@ -40,13 +40,13 @@ The code listens for a 'click' event for both buttons and if one is 'clicked', t
 
 The variable darkMode is then exported to the main.js file.
 
-![image-20230917214947936](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917214947936.png)
+![](images/darkMode.png)
 
-![portfolio_theme_toggle](C:\Users\jonat\Downloads\portfolio-20230831T212440Z-001\portfolio\images\portfolio_theme_toggle.gif)
+![portfolio_theme_toggle](images/portfolio_theme_toggle.gif)
 
 For the projects, if the width of the device being used to view the website is at minimum 640 pixels, the display is changed to grid with two columns each taking up 1 free space. The template areas are set to as one image, one content (where it has the two descriptions and the name for the select project), one content and one image for the next row, and so on. The image and the information for the project have the respective image and content classes respectively. The grid areas are then set to that specific image and content. 
 
-![image-20230917223420228](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917223420228.png)
+![](images/html_work.png)
 
 ![image-20230917223221761](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917223221761.png)
 
