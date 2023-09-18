@@ -64,7 +64,7 @@ A code editor program is needed. Any should do fine, I used Visual Studio Code t
 
 If you do use Visual Studio Code as your code editor, install the extension Live Server to be able to run the code in real-time. After installing this extension, right click the code and click on 'open live server'. You can then see the changes you make to the code live whenever you save and view those changes on the browser the code shows up on.
 
-![image-20230910181043468](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230910181043468.png)
+![](images/liveserver.png)
 
 If node.js isn't installed on your machine, download the LTS version through this link [nodejs.org/en](https://nodejs.org/en).
 
@@ -82,43 +82,43 @@ with comment being any text (preferably what was changed in the code). Lastly, t
 
 git push
 
-![portfolio_git](C:\Users\jonat\Downloads\portfolio-20230831T212440Z-001\portfolio\images\portfolio_git.gif)
+![portfolio_git](images/portfolio_git.gif)
 
 Windows Terminal is needed to download Vite.js. This terminal was downloaded from the Microsoft Store. 
 
-![image-20230917230012449](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917230012449.png)
+![](images/windows_terminal.png)
 
 Open the terminal and click on the dropdown arrow to select settings.
 
-![image-20230917230048155](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917230048155.png)
+![](images/terminal.png)
 
 Scroll down and click on 'Add new profile' and then click on 'New empty profile'
 
-![image-20230917230126829](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917230126829.png)
+![]images/terminal1.png)
 
 Change the name to 'git bash'. Change the command line path to \Git\bin\bash.exe. Change the icon to the directory \Git\mingw64\share\git\git-for-windows.ico. Click save. 
 
-![image-20230917230243825](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917230243825.png)
+![](images/terminal2.png)
 
 Go to 'startup' and go to the drop down menu in the 'default profile section'. Click on the profile you just created and click 'save'. Close everything. 
 
-![image-20230917230518830](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917230518830.png)
+![](images/terminal3.png)
 
 Your terminal should look something like this.
 
-![image-20230917230635987](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917230635987.png)
+![](images/terminal4.png)
 
 Vite.js is a powerful tool that can automatically set up our development environment (index.html, styles.css, and main.js) and comes with powerful features that aren't attainable through setting up these files manually. 
 
 To download this, go to [vitejs.dev](https://vitejs.dev). Click on 'Get Started' on the homepage and scroll down to 'With NPM:'. Copy the command below and open the windows terminal and paste it. 
 
-![image-20230917231117582](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917231117582.png)
+![](images/vite.png)
 
 Type in the name for the project. For the framework and variant, select Vanilla and JavaScript respectively.
 
-![image-20230917231304880](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917231304880.png)
+![](images/vite1.png)
 
-![image-20230917231341448](C:\Users\jonat\AppData\Roaming\Typora\typora-user-images\image-20230917231341448.png)
+![](images/vite2.png)
 
 After this, type in 
 
