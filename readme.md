@@ -62,10 +62,6 @@ To run this website, download the code from [github.com/JCV2022/About-Me-Website
 
 A code editor program is needed. Any should do fine, I used Visual Studio Code to code my website.
 
-If you do use Visual Studio Code as your code editor, install the extension Live Server to be able to run the code in real-time. After installing this extension, right click the code and click on 'open live server'. You can then see the changes you make to the code live whenever you save and view those changes on the browser the code shows up on.
-
-![](images/liveserver.png)
-
 If node.js isn't installed on your machine, download the LTS version through this link [nodejs.org/en](https://nodejs.org/en) and run the installation.exe file.
 
 Git was used for this project. Go to [git-scm.com/downloads](https://git-scm.com/downloads) and download git for your respective device. After downloading the file and running the installation exe found in your downloads folder, open Visual Studio Code and click on source control on the left hand bar with the project still open and click on 'initialize repository'. This allows you to keep track of changes you make to the code and also lets you push code to the GitHub repository without having to updating the repository manually. 
@@ -137,6 +133,12 @@ code .
 to open Visual Studio Code from the terminal. 
 
 Delete everything in the styles.css file and everything in the main.js file except for the first line. Delete the counter.js file and the javascript.svg file. 
+
+If you ever want to see the website live, you can go to the terminal and type either 
+npm run dev 
+or
+npm run preview
+and control click on the link it provides to see the website. Any changes to the code you make will reflect on the website after you save the code. 
 
 Go to [github.com/sindresorhus/modern-normalize](https://github.com/sindresorhus/modern-normalize) and go to the modern-normalize.css file. Open it and download this file. Put this file inside your project. This helps create consistency in styles across all of the modern browsers. 
 
